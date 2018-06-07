@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '~> 2.2'
 
-  s.add_dependency 'activesupport', '~> 4.2'
+  s.add_dependency 'activesupport', '~> 5.1'
   s.add_dependency 'rest-client', '~> 1.6'
 
   s.files         = `git ls-files`.split("\n")
